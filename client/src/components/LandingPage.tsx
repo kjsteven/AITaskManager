@@ -199,6 +199,7 @@ const LandingPage = () => {
                 Smarter task management powered by AI technology to help you focus on what matters most.
               </p>
             </div>
+            
             <div className="md:text-center">
               <h4 className="text-lg font-medium mb-4">Quick Links</h4>
               <ul className="space-y-2">

@@ -5,12 +5,22 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+      },
+    },
     extend: {
       colors: {
-        primary: "#3b82f6",
-        secondary: "#10b981",
-        dark: "#1e293b",
-        light: "#f8fafc"
+        primary: "#4f46e5", // indigo-600
+        secondary: "#9333ea", // purple-600
+        accent: "#d97706", // amber-600
+        dark: "#1f2937", // gray-800
+        light: "#f9fafb" // gray-50
       }
     },
   },
